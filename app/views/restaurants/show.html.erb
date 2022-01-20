@@ -1,0 +1,10 @@
+<%= link_to 'Back', restaurants_path %> |
+<%= link_to 'Leave a review', new_restaurant_review_path(@restaurant) %>
+<%# <%= link_to 'Delete Review', destroy(@review.restaurant) %> |
+
+<%# def destroy
+  @review = Review.find(params[:id])
+  @review.destroy
+    redirect_to restaurant_path(@review.restaurant)
+end
+end %>
